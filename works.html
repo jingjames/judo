@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Works — Judo / Studio</title>
+<meta name="description" content="Selected projects by Judo — design systems, product interfaces, data visualisation and generative experiments.">
+<meta name="theme-color" content="#f1ede4">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="works">
+<div class="page-glow" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Judo Studio — home">
+      <span class="brand-mark">J</span>
+      <span class="brand-text">Judo<em>/studio</em></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="works.html" aria-current="page">Works</a>
+      <a href="playground.html">Playground</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="about.html#contact">Say hello</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro wrap">
+    <span class="eyebrow">作品集 — Portfolio</span>
+    <h1 style="margin-top:18px">Selected <em>work</em>, 2022 — 2025.</h1>
+    <p class="lede">
+      八个项目，从设计系统到生成艺术。每一个都附上简介、涉及的技术与真实链接。
+      点击缩略图即可查看项目详情或线上版本。
+    </p>
+
+    <div class="filters" role="group" aria-label="Filter projects by category">
+      <button class="mini-btn mini-btn--solid" data-filter="all">All</button>
+      <button class="mini-btn" data-filter="product">Product</button>
+      <button class="mini-btn" data-filter="systems">Systems</button>
+      <button class="mini-btn" data-filter="data">Data</button>
+      <button class="mini-btn" data-filter="lab">Lab</button>
+    </div>
+  </section>
+
+  <section class="section section--tight wrap">
+    <div class="work-grid" id="work-grid">
+
+      <article class="card card--full reveal" data-cat="systems" id="atlas">
+        <a class="card-link" href="#" data-placeholder aria-label="View Atlas System project">
+          <div class="thumb" data-art="grid" data-seed="11" data-palette="#e9e4d8,#14130e,#e4572e,#b8b2a2">
+            <span class="thumb-tag">Design system</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Atlas System</h3>
+            <span class="card-year">2025 · Systems</span>
+          </div>
+          <p class="card-desc">
+            为十余条产品线搭建的统一设计系统：从颜色、字号、间距令牌，到四十余个 React 组件与一份可搜索的文档站。
+            核心目标只有一个——让设计与工程说同一种语言，把交付时间缩短一半。
+          </p>
+          <div class="tags"><span class="tag">Design tokens</span><span class="tag">React</span><span class="tag">Storybook</span><span class="tag">Accessibility</span></div>
+        </div>
+      </article>
+
+      <article class="card card--wide reveal" data-cat="lab" id="cadence">
+        <a class="card-link" href="#" data-placeholder aria-label="View Cadence project">
+          <div class="thumb" data-art="wave" data-seed="4" data-palette="#14130e,#e4572e,#f1ede4,#1f5c4c">
+            <span class="thumb-tag">Audio</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Cadence</h3>
+            <span class="card-year">2025 · Lab</span>
+          </div>
+          <p class="card-desc">在浏览器里勾勒旋律的循环工作站。用 Web Audio 做调度，用 Canvas 画波形，零安装、零延迟。</p>
+          <div class="tags"><span class="tag">Web Audio</span><span class="tag">Canvas</span><span class="tag">Vanilla JS</span></div>
+        </div>
+      </article>
+
+      <article class="card card--narrow reveal" data-cat="systems" id="fold">
+        <a class="card-link" href="#" data-placeholder aria-label="View Fold project">
+          <div class="thumb" data-art="type" data-seed="17" data-letter="F" data-palette="#f1ede4,#e4572e,#14130e,#d8cfbe">
+            <span class="thumb-tag">Tooling</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Fold</h3>
+            <span class="card-year">2024</span>
+          </div>
+          <p class="card-desc">为网页排版设计的栅格工具，像编辑纸刊一样折叠布局。</p>
+          <div class="tags"><span class="tag">CSS Grid</span><span class="tag">Design tool</span></div>
+        </div>
+      </article>
+
+      <article class="card card--narrow reveal" data-cat="data" id="meridian">
+        <a class="card-link" href="#" data-placeholder aria-label="View Meridian project">
+          <div class="thumb" data-art="mesh" data-seed="23" data-palette="#dfe3dd,#1f5c4c,#e4572e,#9fb0a4">
+            <span class="thumb-tag">Data viz</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Meridian</h3>
+            <span class="card-year">2024</span>
+          </div>
+          <p class="card-desc">把地理数据讲成故事，支持千万级数据点的流畅浏览。</p>
+          <div class="tags"><span class="tag">WebGL</span><span class="tag">Geo</span></div>
+        </div>
+      </article>
+
+      <article class="card card--wide reveal" data-cat="product" id="signal">
+        <a class="card-link" href="#" data-placeholder aria-label="View Signal project">
+          <div class="thumb" data-art="bars" data-seed="52" data-palette="#14130e,#f1ede4,#e4572e,#7d7869">
+            <span class="thumb-tag">Product</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Signal</h3>
+            <span class="card-year">2023 · Product</span>
+          </div>
+          <p class="card-desc">面向增长团队的实时数据控制台：把流式指标收进一个安静、可扫读的界面，告警不再淹没在噪音里。</p>
+          <div class="tags"><span class="tag">Realtime</span><span class="tag">Dashboard</span><span class="tag">TypeScript</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="lab" id="bloom">
+        <a class="card-link" href="#" data-placeholder aria-label="View Bloom project">
+          <div class="thumb" data-art="orbit" data-seed="31" data-palette="#efe6da,#b83c17,#1f5c4c,#e4572e">
+            <span class="thumb-tag">Generative</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Bloom</h3>
+            <span class="card-year">2023</span>
+          </div>
+          <p class="card-desc">用参数生长出植物海报的生成引擎，每次刷新都是一株新的。</p>
+          <div class="tags"><span class="tag">Generative</span><span class="tag">SVG</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="product" id="ledger">
+        <a class="card-link" href="#" data-placeholder aria-label="View Ledger project">
+          <div class="thumb" data-art="stack" data-seed="44" data-palette="#e4e0d3,#14130e,#1f5c4c,#e4572e">
+            <span class="thumb-tag">Side project</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Ledger</h3>
+            <span class="card-year">2022</span>
+          </div>
+          <p class="card-desc">给自己做的记账工具：本地优先、无账号，一年下来真的坚持在用了。</p>
+          <div class="tags"><span class="tag">Local-first</span><span class="tag">PWA</span></div>
+        </div>
+      </article>
+
+      <article class="card card--full reveal" data-cat="lab" id="drift">
+        <a class="card-link" href="#" data-placeholder aria-label="View Drift project">
+          <div class="thumb" data-art="burst" data-seed="8" data-palette="#15140f,#e4572e,#f1ede4,#7d7869">
+            <span class="thumb-tag">Experiment</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Drift</h3>
+            <span class="card-year">2022 · Experiment</span>
+          </div>
+          <p class="card-desc">
+            一个陪伴专注的氛围小工具：把呼吸节奏画成一圈缓慢流动的光，提醒你在这段时间里只做一件事。
+            也是我对「界面可以有多安静」的一次练习。
+          </p>
+          <div class="tags"><span class="tag">Ambient</span><span class="tag">Motion</span><span class="tag">Web Audio</span></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark">J</span><span class="brand-text">Judo<em>/studio</em></span></a>
+        <p class="footer-note" style="margin-top:14px">Designed &amp; built by hand.<br>© <span data-year>2026</span> — All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="works.html">Works</a>
+        <a href="playground.html">Playground</a>
+        <a href="about.html">About</a>
+        <a href="about.html#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-note">Set in Fraunces &amp; Hanken Grotesk.</span>
+      <span class="footer-note">Made with vanilla HTML, CSS &amp; JS.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var grid = document.getElementById("work-grid");
+    if (!grid) return;
+    var buttons = document.querySelectorAll("[data-filter]");
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        buttons.forEach(function (b) { b.classList.remove("mini-btn--solid"); });
+        btn.classList.add("mini-btn--solid");
+        var cat = btn.dataset.filter;
+        grid.querySelectorAll(".card").forEach(function (card) {
+          var show = cat === "all" || card.dataset.cat === cat;
+          card.classList.toggle("is-hidden", !show);
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Judo / Studio — Portfolio of a designer &amp; developer</title>
+<meta name="description" content="Judo / Studio — a personal portfolio of selected work and interactive experiments in interface design and front-end engineering.">
+<meta name="theme-color" content="#f1ede4">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="index">
+<div class="page-glow" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Judo Studio — home">
+      <span class="brand-mark">J</span>
+      <span class="brand-text">Judo<em>/studio</em></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="works.html">Works</a>
+      <a href="playground.html">Playground</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="about.html#contact">Say hello</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero wrap">
+    <div class="hero-meta">
+      <span>Portfolio — Vol. 06 / 2026</span>
+      <span>Design &amp; front-end practice</span>
+      <span>Shanghai · Remote</span>
+    </div>
+
+    <h1>
+      I make quiet, <span class="accent">useful</span><br>
+      things for the web.
+    </h1>
+
+    <div class="hero-foot">
+      <div>
+        <p class="hero-lede">
+          你好，我是 Judo。一名界面设计师与前端开发者，专注于把复杂的想法
+          打磨成克制、耐看、真正好用的产品。这里陈列了我近年的作品与一些
+          可以亲手把玩的小插件。
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="works.html">
+            View selected work
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn--ghost" href="playground.html">Open the playground</a>
+        </div>
+      </div>
+
+      <div class="hero-stat" aria-label="At a glance">
+        <div><b>8</b><span>Projects</span></div>
+        <div><b>6</b><span>Live widgets</span></div>
+        <div><b>7<span style="font-family:var(--mono);font-size:1.2rem">y</span></b><span>Experience</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Interface design</span>
+      <span>Design systems</span>
+      <span>Front-end engineering</span>
+      <span>Creative coding</span>
+      <span>Interaction</span>
+      <span>Data visualisation</span>
+    </div>
+  </div>
+
+  <!-- ================= FEATURED WORK ================= -->
+  <section class="section wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">作品 — Selected work</span>
+        <h2 class="section-title">A few things I'm <em>proud</em> of.</h2>
+      </div>
+      <a class="textlink" href="works.html">All projects <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="work-grid">
+      <article class="card card--wide reveal">
+        <a class="card-link" href="works.html#atlas" aria-label="View Atlas System project">
+          <div class="thumb" data-art="grid" data-seed="11" data-palette="#e9e4d8,#14130e,#e4572e,#b8b2a2">
+            <span class="thumb-tag">Design system</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Atlas System</h3>
+            <span class="card-year">2025</span>
+          </div>
+          <p class="card-desc">一套服务十余条产品线的设计系统：令牌、组件库与文档站，让团队从设计到上线说同一种语言。</p>
+          <div class="tags"><span class="tag">Tokens</span><span class="tag">React</span><span class="tag">Docs</span></div>
+        </div>
+      </article>
+
+      <article class="card card--narrow reveal">
+        <a class="card-link" href="works.html#cadence" aria-label="View Cadence project">
+          <div class="thumb" data-art="wave" data-seed="4" data-palette="#14130e,#e4572e,#f1ede4,#1f5c4c">
+            <span class="thumb-tag">Audio</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Cadence</h3>
+            <span class="card-year">2025</span>
+          </div>
+          <p class="card-desc">在浏览器里勾勒旋律的循环工作站，零安装、零延迟。</p>
+          <div class="tags"><span class="tag">Web Audio</span><span class="tag">Canvas</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <a class="card-link" href="works.html#meridian" aria-label="View Meridian project">
+          <div class="thumb" data-art="mesh" data-seed="23" data-palette="#dfe3dd,#1f5c4c,#e4572e,#9fb0a4">
+            <span class="thumb-tag">Data viz</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Meridian</h3>
+            <span class="card-year">2024</span>
+          </div>
+          <p class="card-desc">把地理数据变成可阅读的故事，支持千万级点的流畅浏览。</p>
+          <div class="tags"><span class="tag">WebGL</span><span class="tag">Maps</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <a class="card-link" href="works.html#bloom" aria-label="View Bloom project">
+          <div class="thumb" data-art="orbit" data-seed="31" data-palette="#efe6da,#b83c17,#1f5c4c,#e4572e">
+            <span class="thumb-tag">Generative</span>
+            <span class="thumb-go" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3 class="card-title">Bloom</h3>
+            <span class="card-year">2023</span>
+          </div>
+          <p class="card-desc">用参数生长出植物海报的生成引擎，每次刷新都是新的一株。</p>
+          <div class="tags"><span class="tag">Generative</span><span class="tag">SVG</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= PLAYGROUND TEASER ================= -->
+  <section class="section section--tight wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">小插件 — Playground</span>
+        <h2 class="section-title">Interactive <em>trinkets</em>, ready to poke.</h2>
+      </div>
+      <a class="textlink" href="playground.html">Explore all six <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="widget-grid">
+      <!-- live gradient mixer -->
+      <div class="widget reveal" id="w-gradient">
+        <div class="widget-head">
+          <div>
+            <h3 class="widget-title">Gradient Mixer</h3>
+            <p class="widget-desc">调两个颜色和角度，实时拿走一段 CSS。</p>
+          </div>
+          <span class="widget-num">03</span>
+        </div>
+        <div class="widget-body" style="display:grid;gap:14px">
+          <div class="preview" style="min-height:120px"></div>
+          <div class="row" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+            <input type="color" data-c1 value="#e4572e" aria-label="Colour one">
+            <input type="color" data-c2 value="#14130e" aria-label="Colour two">
+            <input type="range" data-angle min="0" max="360" value="120" aria-label="Angle" style="flex:1;min-width:120px">
+            <span class="card-year" data-angle-out>120°</span>
+            <button class="mini-btn" data-swap>Swap</button>
+          </div>
+          <div class="code-out" aria-live="polite"></div>
+          <div class="btn-row">
+            <button class="mini-btn mini-btn--solid" data-copy>Copy CSS</button>
+          </div>
+        </div>
+        <p class="howto"><b>How</b> 拖动滑杆或点色块，满意后按下 Copy CSS。</p>
+      </div>
+
+      <div class="widget reveal" style="justify-content:center;gap:22px">
+        <div class="widget-head">
+          <div>
+            <h3 class="widget-title">Five more inside</h3>
+            <p class="widget-desc">调色板、番茄钟、阴影工坊、对比度检查、文本工具箱。</p>
+          </div>
+          <span class="widget-num">·</span>
+        </div>
+        <div class="widget-body">
+          <p class="card-desc" style="font-size:1rem">
+            所有小插件都是纯前端实现，没有依赖、无需联网，源码就在
+            <code style="font-family:var(--mono);font-size:.85em">assets/js/widgets.js</code>。
+            手机上也能顺畅操作。
+          </p>
+        </div>
+        <a class="btn" href="playground.html">Enter the playground <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section wrap" id="contact">
+    <div class="contact-band reveal">
+      <span class="eyebrow" style="color:rgba(250,248,243,.6)">Contact</span>
+      <h2 style="margin-top:16px">Have something worth building?</h2>
+      <p>接受精选的合作项目：设计系统、产品界面与需要一点巧思的前端。欢迎来信聊聊。</p>
+      <div class="contact-links">
+        <a class="btn" href="mailto:hello@judo.studio">hello@judo.studio</a>
+        <a class="btn btn--ghost" href="about.html">More about me</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark">J</span><span class="brand-text">Judo<em>/studio</em></span></a>
+        <p class="footer-note" style="margin-top:14px">Designed &amp; built by hand.<br>© <span data-year>2026</span> — All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="works.html">Works</a>
+        <a href="playground.html">Playground</a>
+        <a href="about.html">About</a>
+        <a href="about.html#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-note">Set in Fraunces &amp; Hanken Grotesk.</span>
+      <span class="footer-note">Made with vanilla HTML, CSS &amp; JS.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/widgets.js"></script>
+</body>
+</html>
