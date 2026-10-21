@@ -106,7 +106,10 @@ function initTimer() {
   }
   function ding() {
     try {
-      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      // Reuse one context: browsers cap the number of live ones, and this runs
+      // from a timer callback, so the context may have been suspended.
+      const ctx = (ding.ctx ||= new (window.AudioContext || window.webkitAudioContext)());
+      if (ctx.state === "suspended") ctx.resume();
       [0, 0.18, 0.36].forEach((t) => {
         const o = ctx.createOscillator(), g = ctx.createGain();
         o.frequency.value = 660; o.type = "sine";

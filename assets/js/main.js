@@ -197,7 +197,7 @@ function renderArt() {
     const fn = ART[type] || ART.grid;
     const rnd = mulberry32(seed * 2654435761);
     node.innerHTML =
-      `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Generative artwork">` +
+      `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">` +
       fn(rnd, palette, node.dataset.letter) +
       `</svg>`;
   });
